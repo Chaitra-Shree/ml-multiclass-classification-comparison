@@ -38,6 +38,7 @@ Based on the results above, here are the observations for each model's performan
 * **requirements.txt**: List of Python libraries needed for the app.
 * **README.md**: Full project documentation including performance tables.
 * **model/**: Directory containing the saved `.pkl` model files and training logic.
+* **model/train_models.py**: File containing code for model evaluation.
 
 ## Setup and Execution
 1. **Install Dependencies**:
