@@ -3,14 +3,14 @@
 This project is a binary classification system designed to predict whether a mushroom is **Edible** or **Poisonous** based on its physical characteristics. It implements six different machine learning models and compares their performance using multiple evaluation metrics.
 
 ## Dataset Description
-* [cite_start]**Source**: Kaggle/UCI Mushroom Classification Dataset[cite: 28].
-* [cite_start]**Instances**: 8,124 mushrooms (Meets the minimum requirement of 500)[cite: 30].
-* [cite_start]**Features**: 22 categorical attributes (Meets the minimum requirement of 12)[cite: 30].
-* [cite_start]**Classes**: Edible (e) and Poisonous (p)[cite: 29].
+* **Source**: Kaggle/UCI Mushroom Classification Dataset.
+* **Instances**: 8,124 mushrooms.
+* **Features**: 22 categorical attributes (e.g., cap-shape, odor, habitat).
+* **Classes**: Edible (e) and Poisonous (p).
 * **Target Distribution**: Edible: 4,208 (51.8%), Poisonous: 3,916 (48.2%).
 
 ## Model Performance Comparison
-[cite_start]The table below shows the performance of all 6 classification models against the required evaluation metrics[cite: 32, 40, 71].
+The table below shows the performance of all 6 classification models against the required evaluation metrics.
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -22,7 +22,7 @@ This project is a binary classification system designed to predict whether a mus
 | **XGBoost (Ensemble)** | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
 
 ## Observations on Model Performance
-[cite_start]Based on the results above, here are the observations for each model's performance on this dataset[cite: 79, 80]:
+Based on the results above, here are the observations for each model's performance on this dataset:
 
 | ML Model Name | Observation about model performance |
 | :--- | :--- |
@@ -33,13 +33,11 @@ This project is a binary classification system designed to predict whether a mus
 | **Random Forest (Ensemble)** | Successfully used multiple decision trees to eliminate classification errors, resulting in a perfect MCC and Accuracy score. |
 | **XGBoost (Ensemble)** | Handled the categorical features perfectly through gradient boosting, delivering the most robust and accurate predictions. |
 
-
-
-## [cite_start] Project Structure [cite: 51]
-* [cite_start]**app.py**: The Streamlit frontend for interactive testing and data upload[cite: 52, 90].
-* [cite_start]**requirements.txt**: List of Python libraries needed for the app[cite: 53, 56].
-* [cite_start]**README.md**: Full project documentation including performance tables[cite: 54, 65].
-* [cite_start]**model/**: Directory containing the saved `.pkl` model files and training logic[cite: 55].
+## Project Structure
+* **app.py**: The Streamlit frontend for interactive testing and data upload.
+* **requirements.txt**: List of Python libraries needed for the app.
+* **README.md**: Full project documentation including performance tables.
+* **model/**: Directory containing the saved `.pkl` model files and training logic.
 
 ## Setup and Execution
 1. **Install Dependencies**:
