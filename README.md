@@ -1,5 +1,6 @@
 # 🍄 Mushroom Classification - ML Assignment 2
 
+## Problem statement
 This project is a binary classification system designed to predict whether a mushroom is **Edible** or **Poisonous** based on its physical characteristics. It implements six different machine learning models and compares their performance using multiple evaluation metrics.
 
 ## Dataset Description
@@ -9,6 +10,7 @@ This project is a binary classification system designed to predict whether a mus
 * **Classes**: Edible (e) and Poisonous (p).
 * **Target Distribution**: Edible: 4,208 (51.8%), Poisonous: 3,916 (48.2%).
 
+## Models used
 ## Model Performance Comparison
 The table below shows the performance of all 6 classification models against the required evaluation metrics.
 
