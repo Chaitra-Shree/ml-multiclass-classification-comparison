@@ -3,7 +3,7 @@
 This project is a binary classification system designed to predict whether a mushroom is **Edible** or **Poisonous** based on its physical characteristics. It implements six different machine learning models and compares their performance using multiple evaluation metrics.
 
 ## Dataset Description
-* **Source**: Kaggle/UCI Mushroom Classification Dataset.
+* **Source**: Kaggle Mushroom Classification Dataset.
 * **Instances**: 8,124 mushrooms.
 * **Features**: 22 categorical attributes (e.g., cap-shape, odor, habitat).
 * **Classes**: Edible (e) and Poisonous (p).
